@@ -1,7 +1,7 @@
 # Kita-Gebührenrechner-Potsdam
 Web-App zum Berechnen der Gebühren für Krippe, Kita und Hort in Potsdam
 
-Seite: https://kitarechner.oklab-potsdam.de/
+Seite: https://kitarechner.oklab-potsdam.org/
 
 Basierend auf offiziellen den Daten der Stadt Potsdam, Stand 1.08.2018:
 https://www.potsdam.de/sites/default/files/documents/anlage_kostenbeitragssatzung_tagespflege_wertetabelle.pdf
