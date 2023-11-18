@@ -9,7 +9,7 @@ function berechneKitaGebuehren () {
 
 	/*
 		Ermitteln, in welchem Gehaltsbereich sich das eingegebene Gehalt befindet
-		(vergl. Gebühren aus dem Kita-Satzungs PDF)
+		(vgl. Gebühren aus dem Kita-Satzungs-PDF)
 	*/
 	if (gesamtgehalt.value < 22001) {
 		gehaltId = 0;
@@ -171,7 +171,7 @@ function berechneKitaGebuehren () {
 
 
 
-//Addiert die beiden Felder mit den Gehältern zum Gesmatgehalt
+//Addiert die beiden Felder mit den Gehältern zum Gesamtgehalt
 function berechneGesamtgehalt() {
 
 	gehalt1 = parseFloat(document.getElementById("gehalt1").value);
@@ -207,7 +207,7 @@ function radioWert(rObj) {
 
 
 
-//Diese Funktion löst alle Events aus
+//Diese Funktion löst alle Events aus.
 $( document ).ready(function() {
 
 	/* Initial auf Null */
@@ -249,7 +249,7 @@ $( document ).ready(function() {
 		berechneGesamtgehalt(); 
 	})
 
- 	//change, keyup und mousup lassen sich nicht kombinieren???
+ 	//change, keyup und mouseup lassen sich nicht kombinieren???
  	//deshalb die Blöcke nun doppelt
 	$('input[id="gehalt1"]').on('mouseup', function(){
 		berechneGesamtgehalt(); 
